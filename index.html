@@ -29,9 +29,10 @@
                             </li>
 
                             <li class="bag__item">
-                                <a href="#">
+                                <button class="bag_modal" href="#">
                                     <img src="./img/bag.svg" alt="bag">
-                                </a>
+                                    <p class="counter"></p>
+                                </button>
                                 <a class="header__items_link" href="#"> Items</a>
                             </li>
                             <li>
@@ -169,6 +170,19 @@
 
         <section class="tab__sec">
             <div class="container">
+                <div class="show__block">
+                    <div class="modal_cont">
+                        <span class="close">
+                            x
+                        </span>
+                        <ul class="show_cont">
+
+                        </ul>
+
+                        <p class="totalCount"></p>
+                    </div>
+
+                </div>
                 <div class="tab__block">
                     <h2 class="tab__title">BEST SELLER</h2>
 
@@ -179,15 +193,113 @@
 
                     <ul class="box">
                     </ul>
+
+                    <div class="load_link_block">
+                        <a class="load_link" href="#">LOAD MORE</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="rek">
+            <div class="container">
+                <div class="rek__block">
+                    <ul class="rek__list">
+                        <li class="rek__item">
+                            <img src="./img/gru.svg" alt="gruz">
+                            <p class="rek__text">FREE SHIPPING</p>
+                        </li>
+                        <li class="rek__item">
+                            <img src="./img/mon.svg" alt="mon">
+                            <p class="rek__text">100% REFUND</p>
+                        </li>
+                        <li class="rek__item">
+                            <img src="./img/oper.svg" alt="oper">
+                            <p class="rek__text">SUPPORT 24/7</p>
+                        </li>
+                    </ul>
+                    <form class="form" method="post">
+                        <input class="input" type="search" name="search" id="user" placeholder="Search query..."
+                            aria-label="searchh">
+                        <button method="submit" class="inp__btn">Search</button>
+                    </form>
+
                 </div>
             </div>
         </section>
 
 
 
-
-
     </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer___block">
+                <div class="footer__logo_block">
+                    <div class="footer_logo_img_block">
+                        <img src="./img/footer__logo.svg" alt="footer__logo">
+                    </div>
+                    <p class="footer__logo_text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever.Since the 1500s, when an
+                        unknown printer.</p>
+                </div>
+                <div class="social_block">
+                    <h3 class="social_title">Follow Us</h3>
+                    <p class="social__text">Since the 1500s, when an unknown printer took a galley of type and
+                        scrambled.</p>
+                    <ul class="social__list">
+                        <li>
+                            <a href="#">
+                                <img src="./img/facebook.svg" alt="facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/twitter.svg" alt="twitter">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contact">
+                    <h3 class="contact__title">Contact Us</h3>
+                    <p class="contact__text">E-Comm , 4578 Marmora Road, Glasgow D04 89GR</p>
+                </div>
+
+
+
+            </div>
+            <div class="line"></div>
+            <div class="bottom__block">
+                <p class="bottom__text">© 2018 Ecommerce theme by www.bisenbaev.com</p>
+                <ul class="pay__list">
+                    <li>
+                        <a href="#">
+                            <img src="./img/western.svg" alt="western">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/mastercard.svg" alt="mastercard">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/pasypal.svg" alt="pasypal">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/visa.svg" alt="visa">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="./js/slick.min.js"></script>
     <script type="module" src="./js/main.js"></script>
